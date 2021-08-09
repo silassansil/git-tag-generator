@@ -1,3 +1,5 @@
 .idea
 venv
 *temp
+*-info
+__pycache__

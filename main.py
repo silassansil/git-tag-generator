@@ -33,7 +33,7 @@ _update_version = {
 
 
 @click.command()
-def main():
+def generate():
     click.echo('lets generate a new version for our project?? :D')
     _repo_name = input(f'what repo do you like generate a tag?? \n {list(_repositories.keys())} \n')
     _repo_name_temp = f'{_repo_name}-temp'
@@ -79,4 +79,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    generate()
